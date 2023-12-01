@@ -25,5 +25,6 @@ func main() {
 	// basic.Interface()
 	// basic.Control()
 	// basic.Error()
-	basic.Generics()
+	// basic.Generics()
+	basic.UnitTestSrc()
 }

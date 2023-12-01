@@ -49,6 +49,8 @@ _testmain.go
 **.env
 **.env.backup
 
+coverage.out
+
 app
 
 # This file includes artifacts of Go build that should not be checked in.
