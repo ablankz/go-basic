@@ -24,5 +24,6 @@ func main() {
 	// basic.Function()
 	// basic.Interface()
 	// basic.Control()
-	basic.Error()
+	// basic.Error()
+	basic.Generics()
 }
