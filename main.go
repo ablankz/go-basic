@@ -33,5 +33,6 @@ func main() {
 	// parallel.Select()
 	// parallel.Mutex()
 	// parallel.Context()
-	parallel.ErrorGroup()
+	// parallel.ErrorGroup()
+	parallel.Pipeline()
 }
