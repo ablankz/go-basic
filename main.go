@@ -20,6 +20,6 @@ func main() {
 	// basic.Shadowing()
 	// basic.Slice()
 	// basic.Map()
-	basic.Struct()
-
+	// basic.Struct()
+	basic.Function()
 }
