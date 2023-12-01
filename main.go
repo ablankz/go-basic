@@ -22,5 +22,6 @@ func main() {
 	// basic.Map()
 	// basic.Struct()
 	// basic.Function()
-	basic.Interface()
+	// basic.Interface()
+	basic.Control()
 }
