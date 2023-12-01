@@ -16,6 +16,7 @@ func main() {
 	// fmt.Println(calculator.Multiply(2, 3))
 
 	// basic.Variables()
-	basic.Pointer()
+	// basic.Pointer()
+	basic.Shadowing()
 
 }
