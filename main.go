@@ -28,5 +28,6 @@ func main() {
 	// basic.Generics()
 	// basic.UnitTestSrc()
 	// basic.Logger()
-	parallel.Goroutine()
+	// parallel.Goroutine()
+	parallel.Channel()
 }
