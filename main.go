@@ -15,6 +15,7 @@ func main() {
 	// fmt.Println(calculator.Sum(1, 2))
 	// fmt.Println(calculator.Multiply(2, 3))
 
-	basic.Variables()
+	// basic.Variables()
+	basic.Pointer()
 
 }
