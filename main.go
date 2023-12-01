@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-basic/calculator"
+	"go-basic/basic"
 	"os"
 
 	"github.com/joho/godotenv"
@@ -11,7 +11,10 @@ import (
 func main() {
 	godotenv.Load()
 	fmt.Println(os.Getenv("GO_ENV"))
-	fmt.Println(calculator.Offset)
-	fmt.Println(calculator.Sum(1, 2))
-	fmt.Println(calculator.Multiply(2, 3))
+	// fmt.Println(calculator.Offset)
+	// fmt.Println(calculator.Sum(1, 2))
+	// fmt.Println(calculator.Multiply(2, 3))
+
+	basic.Variables()
+
 }
