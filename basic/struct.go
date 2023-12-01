@@ -53,7 +53,6 @@ func Struct() {
 // 	task.Estimate += 10
 // }
 
-// 以下のポインタレシーバだとインスタンスに変更を加えられない
 func (task *Task) extendEstimatePointer() {
 	task.Estimate += 10
 }
