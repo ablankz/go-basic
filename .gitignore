@@ -46,6 +46,9 @@ _testmain.go
 /test/run.out
 /test/times.out
 
+**.env
+**.env.backup
+
 app
 
 # This file includes artifacts of Go build that should not be checked in.
