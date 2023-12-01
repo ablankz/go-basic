@@ -17,6 +17,7 @@ func main() {
 
 	// basic.Variables()
 	// basic.Pointer()
-	basic.Shadowing()
+	// basic.Shadowing()
+	basic.Slice()
 
 }
