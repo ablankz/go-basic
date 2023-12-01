@@ -50,6 +50,7 @@ _testmain.go
 **.env.backup
 
 coverage.out
+log.txt
 
 app
 
