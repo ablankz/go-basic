@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-basic/basic"
+	"go-basic/parallel"
 	"os"
 
 	"github.com/joho/godotenv"
@@ -27,5 +27,6 @@ func main() {
 	// basic.Error()
 	// basic.Generics()
 	// basic.UnitTestSrc()
-	basic.Logger()
+	// basic.Logger()
+	parallel.Goroutine()
 }
