@@ -31,5 +31,6 @@ func main() {
 	// parallel.Goroutine()
 	// parallel.Channel()
 	// parallel.Select()
-	parallel.Mutex()
+	// parallel.Mutex()
+	parallel.Context()
 }

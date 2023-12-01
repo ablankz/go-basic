@@ -10,6 +10,8 @@ import (
 // const bufSize = 3
 const bufSize = 5
 
+// selectブロックに入るとcaseのうちどれかに一致するまで待機する
+
 func Select() {
 	// with timeout context
 	// 	ch1 := make(chan string, 1)
