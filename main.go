@@ -34,5 +34,6 @@ func main() {
 	// parallel.Mutex()
 	// parallel.Context()
 	// parallel.ErrorGroup()
-	parallel.Pipeline()
+	// parallel.Pipeline()
+	parallel.FanOutFanIn()
 }
