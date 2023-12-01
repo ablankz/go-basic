@@ -23,5 +23,6 @@ func main() {
 	// basic.Struct()
 	// basic.Function()
 	// basic.Interface()
-	basic.Control()
+	// basic.Control()
+	basic.Error()
 }
