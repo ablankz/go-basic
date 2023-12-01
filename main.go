@@ -19,6 +19,7 @@ func main() {
 	// basic.Pointer()
 	// basic.Shadowing()
 	// basic.Slice()
-	basic.Map()
+	// basic.Map()
+	basic.Struct()
 
 }
