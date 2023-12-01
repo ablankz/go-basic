@@ -35,5 +35,6 @@ func main() {
 	// parallel.Context()
 	// parallel.ErrorGroup()
 	// parallel.Pipeline()
-	parallel.FanOutFanIn()
+	// parallel.FanOutFanIn()
+	parallel.Heartbeat()
 }
