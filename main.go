@@ -42,5 +42,6 @@ func main() {
 	// standard.Math()
 	// standard.Flag()
 	// standard.Fmt()
-	standard.Log()
+	// standard.Log()
+	standard.Strconv()
 }
