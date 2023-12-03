@@ -45,5 +45,6 @@ func main() {
 	// standard.Log()
 	// standard.Strconv()
 	// standard.Strings()
-	standard.Bufio()
+	// standard.Bufio()
+	standard.Regexp()
 }
