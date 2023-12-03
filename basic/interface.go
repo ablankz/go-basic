@@ -52,6 +52,11 @@ func (v vehicle) String() string {
 	return fmt.Sprintf("Vehicle current speed is %v (enginePower %v)", v.speed, v.enginePower)
 }
 
+// 型アサーション
+// v, ok = x.(T)
+// 上記の構文で型アサーションできる
+// xがTの型である場合はokにtrueが入り、以降xはその型とみなせる
+
 func Interface() {
 	// ポインタレシーバを呼び出すため
 	// v := &vehicle{
