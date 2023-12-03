@@ -39,5 +39,6 @@ func main() {
 	// parallel.Heartbeat()
 
 	// standard.Time()
-	standard.Math()
+	// standard.Math()
+	standard.Flag()
 }
