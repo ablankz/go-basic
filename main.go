@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-basic/parallel"
+	"go-basic/standard"
 	"os"
 
 	"github.com/joho/godotenv"
@@ -36,7 +36,8 @@ func main() {
 	// parallel.ErrorGroup()
 	// parallel.Pipeline()
 	// parallel.FanOutFanIn()
-	parallel.Heartbeat()
+	// parallel.Heartbeat()
 
 	// standard.Time()
+	standard.Math()
 }
