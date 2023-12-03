@@ -52,6 +52,8 @@ _testmain.go
 coverage.out
 trace.out
 log.txt
+foo.txt
+test.txt
 
 app
 
