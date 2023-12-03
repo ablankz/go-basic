@@ -4,8 +4,11 @@ import (
 	"testing"
 )
 
-// テスト実行
+// テスト実行(指定ディレクトリ以下)
 // go test -v ./basic/
+
+// そのパッケージ内のすべてのテスト実行
+// go test -v ./...
 
 // カバレッジを検査(何％カバーできるか)
 // go test -v -cover -coverprofile=coverage.out ./basic/
