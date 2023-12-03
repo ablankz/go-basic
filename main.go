@@ -50,5 +50,6 @@ func main() {
 	// standard.Crypt()
 	// standard.Json()
 	// standard.Sort()
-	standard.Context()
+	// standard.Context()
+	standard.NetUrl()
 }
