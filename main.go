@@ -51,5 +51,6 @@ func main() {
 	// standard.Json()
 	// standard.Sort()
 	// standard.Context()
-	standard.NetUrl()
+	// standard.NetUrl()
+	standard.NetHttpClient()
 }
