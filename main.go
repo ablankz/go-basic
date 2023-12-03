@@ -47,5 +47,6 @@ func main() {
 	// standard.Strings()
 	// standard.Bufio()
 	// standard.Regexp()
-	standard.Crypt()
+	// standard.Crypt()
+	standard.Json()
 }
