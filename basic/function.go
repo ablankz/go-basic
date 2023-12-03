@@ -15,6 +15,21 @@ func funcDefer() {
 	fmt.Println("hello world")
 }
 
+// 返り値に変数名をつけられる
+func do(a string) (b string) {
+	// ただし関数内で同一名で宣言すると再宣言となる
+	// b string := a
+	// よって代入の形で値を入れる
+	b = a
+	{
+		// スコープを変えるためのブロック
+		b := "BBBB"
+		println(b)
+	}
+	println(b)
+	return b
+}
+
 // 可変長引数
 func trimExtension(files ...string) []string {
 	// ファイル数分のキャパシティを持つスライス作成
@@ -60,6 +75,7 @@ func countUp() func(int) int {
 
 func Function() {
 	funcDefer()
+	var _ = do("hello")
 	files := []string{"file1.csv", "file2.csv", "file3.csv"}
 	// fileを展開して渡す
 	fmt.Println(trimExtension(files...))
