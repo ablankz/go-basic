@@ -48,5 +48,6 @@ func main() {
 	// standard.Bufio()
 	// standard.Regexp()
 	// standard.Crypt()
-	standard.Json()
+	// standard.Json()
+	standard.Sort()
 }
