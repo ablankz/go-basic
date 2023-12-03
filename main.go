@@ -37,4 +37,6 @@ func main() {
 	// parallel.Pipeline()
 	// parallel.FanOutFanIn()
 	parallel.Heartbeat()
+
+	// standard.Time()
 }
